@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe</title>
+    <link rel = "stylesheet" href = "Main.css">
+    <link rel = "stylesheet" href = "Tic Tac Toe.css">
+  </head>
+  <body>
+    <div class = info>
+      <h1 class = title><u>Tic Tac Toe</u></h1><hr>
+      <p>Tic Tac Toe used to require a pen/pencil and some paper <span>(unless if you are being a silly little person and doing it on a table or wall)</span> but now, you don't need paper. You don't even need a pen/pencil! Instead, you can go against your friend using this website. If you do not have friends, wait for the next <span>(not guaranteed)</span> update where I manage to code the ANN (Ann Anon) I'm working on and apply one copy here. This is the first one I'm going to AI-ify <span>(if this is updated)</span> so this is something you can be excited for.</p>
+    </div>
+    <div class = info>
+      <h1><u>Turns</u></h1><hr>
+      <p>Tiles: Player 1: ⭕, Player 2: ❌</p>
+      <p>Current Turn: Player <span id = turnId>1</span></p>
+    </div>
+    <div class = info>
+      <h1><u>The Main Game</u></h1><hr><table><tbody>
+        <tr>
+          <td><button id = one onclick = one()>#</button></td>
+          <td><button id = two onclick = two()>#</button></td>
+          <td><button id = three onclick = three()>#</button></td>
+        </tr>
+        <tr>
+          <td><button id = four onclick = four()>#</button></td>
+          <td><button id = five onclick = five()>#</button></td>
+          <td><button id = six onclick = six()>#</button></td>
+        </tr>
+        <tr>
+          <td><button id = seven onclick = seven()>#</button></td>
+          <td><button id = eight onclick = eight()>#</button></td>
+          <td><button id = nine onclick = nine()>#</button></td>
+        </tr></tbody></table><br><br>
+      <button class = hide id = newGame onclick = win(whichScore)>New Game</button>
+    </div>
+    <div class = info>
+      <h1><u>Stuff to Argue About</u></h1><hr>
+      <p id = scores>Scores: Player 1: 0, Player 2: 0</p>
+    </div>
+    <div class = info>
+      <h1><u>Back to Homepage</u></h1><hr>
+      <a href = "My Fun Stuff.html"><img src = "Homepage Image.png"> Click here once finished. <img src = "Homepage Image.png"></a>
+    </div>
+    <script src = "Tic Tac Toe.js"></script>
+  </body>
+</html>

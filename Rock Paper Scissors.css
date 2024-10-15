@@ -1,0 +1,10 @@
+button {
+  border-color: darkgoldenrod;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 10px;
+  font-size: 80px;
+  height: 150px;
+  margin: 10px;
+  width: 150px;
+}

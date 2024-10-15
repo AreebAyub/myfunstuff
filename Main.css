@@ -1,0 +1,26 @@
+a {
+  font-size: 30px;
+}
+body {
+  background-color: red;
+  color: white;
+}
+h1 {
+  font-size: 100px;
+}
+p {
+  font-size: 30px;
+}
+span {
+  font-size: 15px;
+}
+.info {
+  background-color: black;
+  border-radius: 50px;
+  margin: 25px;
+  padding: 30px;
+  text-align: center;
+}
+.title {
+  font-size: 200px;
+}

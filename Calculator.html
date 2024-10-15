@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel = "stylesheet" href = "Main.css">
+    <link rel = stylesheet href = "Calculator.css">
+  </head>
+  <body>
+    <div class = info>
+      <h1 class = title><u>Calculator</u></h1><hr>
+      <p>This is a simple calculator. This was one of my first projects to practice JavaScript that survived. Older stuff was that website I had about Easter in different cultures I made due to having this as a research homework for a poster for both French and Spanish in 2024 but we don't talk about that anymore. In a future update, you can expect complex calculations <span>(I am good at maths: I can easily manage with a sprinkle of dedication on a project so I don't get bored and switch)</span> but not guaranteed.</p>
+    </div>
+    <div class = info>
+      <h1><u>Answer</u></h1><hr>
+      <p><span id = calculate>Enter Calculation</span></p>
+    </div>
+    <div class = info>
+      <h1><u>Buttons: Digits</u></h1><hr>
+      <table><tbody><tr>
+        <td><button onclick = "addToCalculation('0');">0</button></td>
+        <td><button onclick = "addToCalculation('1');">1</button></td>
+        <td><button onclick = "addToCalculation('2');">2</button></td>
+        <td><button onclick = "addToCalculation('3');">3</button></td>
+        <td><button onclick = "addToCalculation('4');">4</button></td>
+      </tr>
+      <tr>
+        <td><button onclick = "addToCalculation('5');">5</button></td>
+        <td><button onclick = "addToCalculation('6');">6</button></td>
+        <td><button onclick = "addToCalculation('7');">7</button></td>
+        <td><button onclick = "addToCalculation('8');">8</button></td>
+        <td><button onclick = "addToCalculation('9');">9</button></td>
+      </tr></tbody></table>
+    </div>
+    <div class = info>
+      <h1><u>Buttons: Operations</u></h1><hr>
+      <table><tbody><tr>
+        <td><button onclick = "addToCalculation(' + ');">+</button></td>
+        <td><button onclick = "addToCalculation(' - ');">-</button></td>
+        <td><button onclick = "addToCalculation(' * ');">&#215;</button></td>
+        <td><button onclick = "addToCalculation(' / ');">&#247;</button></td>
+      </tr>
+      <tr>
+        <td><button onclick = "addToCalculation('.');">.</button></td>
+        <td><button onclick = "addToCalculation(' ** ');">^</button></td>
+        <td><button onclick = "addToCalculation('&#10088;');">&#10088;</button></td>
+        <td><button onclick = "addToCalculation('&#10089;');">&#10089;</button></td>
+      </tr></tbody></table>
+    </div>
+    <div class = info>
+      <h1><u>Button: THE EQUALS SIGN</u></h1><hr>
+      <button id = last onclick = "finalCalculation();">=</button>
+    </div>
+    <div class = info>
+      <h1><u>Back to Homepage</u></h1><hr>
+      <a href = "My Fun Stuff.html"><img src = "Homepage Image.png"> Click here once finished. <img src = "Homepage Image.png"></a>
+    </div>
+    <script src = "Calculator.js"></script>
+  </body>
+</html>

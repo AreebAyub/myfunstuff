@@ -1,0 +1,28 @@
+button {
+  background-color: black;
+  border: 5px white groove;
+  color: white;
+  font-size: 30px;
+  height: 60px;
+  margin: 10px;
+  width: 60px;
+}
+table {
+  margin-left: 40%;
+}
+#calculate {
+  border: 1px solid white;
+  font-size: 35px;
+  padding: 5px;
+  
+}
+#last {
+  background-color: gold;
+  border-color: darkgoldenrod;
+  border-radius: 5px;
+  border-width: 50px;
+  color: darkgoldenrod;
+  font-size: 200px;
+  height: 350px;
+  width: 500px;
+}

@@ -1,0 +1,26 @@
+button {
+  border-style: none;
+  font-size: 150px;
+  height: 200px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+  padding: 1px;
+  width: 200px;
+}
+table {
+  margin-left: 32%;
+}
+.hide {
+  background-color: black;
+  color: black;
+}
+.used {
+  background-color: black;
+}
+.yippee {
+  background-color: chartreuse;
+}
+#newGame {
+  height: auto;
+  width: auto;
+}
